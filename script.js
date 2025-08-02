@@ -330,7 +330,7 @@ var treeData = {
             
         { "name": "Main feature" ,
               "children": [
-        { "name": "Salt-tolerant trees and shrubs adapted to tidal zones and brackish waters" },
+        { "name": "Dominated by: Salt-tolerant trees and shrubs adapted to tidal zones and brackish waters" },
           ]
         },
         { "name": "Soil" ,
@@ -386,7 +386,7 @@ var treeData = {
             
         { "name": "Main feature" ,
               "children": [
-        { "name": "Broadleaf deciduous trees with seasonal leaf loss" },
+        { "name": "Dominated by: Broadleaf deciduous trees with seasonal leaf loss" },
           ]
         },
         { "name": "Soil" ,
@@ -437,7 +437,7 @@ var treeData = {
             
         { "name": "Main feature" ,
               "children": [
-        { "name": "Broadleaf evergreen species, moisture-loving, dense canopy" },
+        { "name": "Dominated by: Broadleaf evergreen species, moisture-loving, dense canopy" },
           ]
         },
         { "name": "Soil" ,
@@ -484,38 +484,654 @@ var treeData = {
       {      "name": "Central & South Asia",
      "type": "geolocation", 
             "children": [
-        { "name": "Himalayan Coniferous Forests (Nepal, Bhutan, India)"},
-        { "name": "Tropical Dry Forests (India, Sri Lanka)"},
+        { "name": "Himalayan Coniferous Forests (Nepal, Bhutan, India)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Mid to high elevations (1500–3500 m) across Himalayas" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Conifer species, cold-adapted, often mixed with broadleaf trees" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Acidic, well-drained, often shallow and rocky, low in nutrients" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, resin, non-timber forest products (mushrooms, herbs)" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": " Fire-sensitive conifers; fires rare but can cause serious damage; natural regeneration slow"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation, overgrazing, climate change, illegal logging"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+                   { "name": "Cedrus deodara (Deodar Cedar)"},
+           { "name": "Pinus roxburghii (Chir Pine)"},
+           { "name": "Abies spectabilis (East Himalayan Fir)"},
+           { "name": "Picea smithiana (West Himalayan Spruce)"},
+           { "name": "Rhododendron arboreum (Broadleaf shrub/tree often in understory)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Red Panda (Ailurus fulgens)"},
+          { "name": "Himalayan Musk Deer (Moschus leucogaster)"},
+          { "name": "Himalayan Monal (Lophophorus impejanus)"},
+          { "name": "Yew species (Taxus wallichiana)"}
+                    ]
+         },
+            ]
+        },
+           
+        { "name": "Tropical Dry Forests (India, Sri Lanka)",
+            "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Low to mid elevations, seasonal rainfall zones in India and Sri Lanka" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Deciduous broadleaf species, drought-adapted" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Often deep, fertile but prone to erosion; sandy-loam to clay" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, charcoal, non-timber products" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": " Frequent low-intensity fires promote regeneration; fire-adapted species"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation, overgrazing, shifting agriculture, invasive species"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+                   { "name": "Tectona grandis (Teak)"},
+           { "name": "Acacia catechu (Black Catechu)"},
+           { "name": "Terminalia tomentosa (Asna)"},
+           { "name": "Dalbergia latifolia (Rosewood)"},
+           { "name": "Boswellia serrata (Indian frankincense)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Indian Pangolin (Manis crassicaudata)"},
+          { "name": "Nilgiri Tahr (Nilgiritragus hylocrius)"},
+          { "name": "Blackbuck (Antilope cervicapra)"},
+          { "name": "Sal Trees (Shorea robusta) – vulnerable in some areas"}
+            ]
+        },
+             
+                    ]
+        },
                                ]
     },
     {      "name": "Middle East & North Africa",
      "type": "geolocation", 
             "children": [
-        { "name": "Mediterranean Forests (Lebanon, Turkey, Morocco)"},
-        { "name": "Saharan Oases Forests (Egypt, Algeria)"}
+        { "name": "Mediterranean Forests (Lebanon, Turkey, Morocco)",
+        "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Coastal and inland hills, Mediterranean-climate zones" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Sclerophyllous evergreen and drought-tolerant deciduous species" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Shallow, rocky, often calcareous, low in organic matter" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, cork, olives, herbs, ecotourism" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": " Fire-adapted; many species resprout or regenerate from seed after fire"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Urban sprawl, overgrazing, wildfires, illegal logging, land abandonment"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Quercus coccifera (Kermes Oak)"},
+           { "name": "Pinus brutia (Turkish Pine)"},
+           { "name": "Cedrus libani (Lebanon Cedar)"},
+           { "name": "Olea europaea (Wild Olive)"},
+           { "name": "Arbutus unedo (Strawberry Tree)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Barbary Macaque (Macaca sylvanus)"},
+          { "name": "Lebanon Cedar (Cedrus libani – locally threatened)"},
+          { "name": "Iberian Lynx (historically wider range)"},
+          { "name": "Tethyan-endemic plants"}
+                           ]
+        },
+                        ]
+    },
+        { "name": "Saharan Oases Forests (Egypt, Algeria)",
+           "children": [
+        { "name": "Location",
+          "children": [
+        { "name": " Isolated desert depressions with groundwater or springs" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Date palms and other drought-resilient, cultivated species" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Saline to sandy-loamy; often artificially enriched by irrigation" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Dates, irrigation farming, craft materials, tourism" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Fire rare due to low biomass; palm groves sometimes at risk from human-caused fires"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Groundwater depletion, salinization, desert encroachment, modern agriculture pressures"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Phoenix dactylifera (Date Palm)"},
+           { "name": "Acacia nilotica (Gum Arabic Tree)"},
+           { "name": "Tamarix spp. (Salt Cedar)"},
+           { "name": "Ziziphus spina-christi (Christ's Thorn)"},
+           { "name": "Ficus sycomorus (Sycamore Fig – occasional)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Slender-horned Gazelle (Gazella leptoceros)"},
+          { "name": "Addax antelope (Addax nasomaculatus)"},
+          { "name": "Freshwater fish and endemic invertebrates"},
+          { "name": "Date palm landraces (traditional cultivars at risk)"}
+                           ]
+        },
+                        ]
+        
+        }
       ]   
      },
      {      "name": "Sub-Saharan Africa",
      "type": "geolocation", 
             "children": [
-        { "name": "Congo Rainforest (DRC, Gabon, Cameroon)"},
-        { "name": "Miombo Woodlands (Zambia, Tanzania, Mozambique)"}
-      ] 
-       },
+        { "name": "Congo Rainforest (DRC, Gabon, Cameroon)",
+          "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Central Africa, Congo Basin" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Broadleaf evergreen species, dense multi-layered canopy" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Nutrient-poor, highly weathered, lateritic, acidic, low fertility" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, bushmeat, non-timber forest products" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Naturally fire-free; fire damages forest edges and regrowth"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Logging, mining, hunting, agriculture, road construction"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Gilbertiodendron dewevrei (dominant monodominant tree)"},
+           { "name": "Terminalia superba"},
+           { "name": "Entandrophragma cylindricum (Sapele)"},
+           { "name": "Milicia excelsa (Iroko)"},
+           { "name": "Okoumé (Aucoumea klaineana – in Gabon)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Western Lowland Gorilla (Gorilla gorilla gorilla)"},
+          { "name": "Forest Elephant (Loxodonta cyclotis)"},
+          { "name": "Okapi (Okapia johnstoni)"},
+          { "name": "African Grey Parrot (Psittacus erithacus)"}
+                           ]
+        },
+                        ]
+        },
+        { "name": "Miombo Woodlands (Zambia, Tanzania, Mozambique)",
+          "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Southern-central Africa, covering large plateaus and dry zones" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Deciduous broadleaf trees, drought and fire-adapted" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Sandy to loamy, often acidic, low in nitrogen and phosphorus" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Charcoal, honey, wild foods, firewood" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Regular low-intensity fires maintain ecosystem, promote seed germination"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation for farming and charcoal, overgrazing, fire mismanagement"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Brachystegia spp."},
+           { "name": "Julbernardia spp."},
+           { "name": "Isoberlinia spp."},
+           { "name": "Uapaca kirkiana (wild fruit tree)"},
+           { "name": "Combretum spp."}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "African Wild Dog (Lycaon pictus)"},
+          { "name": "Cheetah (Acinonyx jubatus)"},
+          { "name": "Sable Antelope (Hippotragus niger)"},
+          { "name": "Miombo woodland orchids (various threatened species)"}
+                                  ]
+         }
+                                  ]
+         }
+                                  ]
+                },
+      
      {      "name": "North America",
      "type": "geolocation", 
             "children": [
-        { "name": "Pacific Temperate Rainforests (Canada, USA)"},
-        { "name": "Eastern Deciduous Forests (USA, Canada)"},
-        { "name": "Boreal Forests (Canada, Alaska)"}
+        { "name": "Pacific Temperate Rainforests (Canada, USA)",
+             "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Pacific Coast from Alaska to Northern California" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Tall conifers, moss-draped understory, high biomass" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Moist, acidic, rich in organic matter, often shallow and well-drained" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Logging, tourism, non-timber forest products (mushrooms, berries)" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Rare fires; windthrow and decay are main disturbances"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Industrial logging, climate shifts, habitat fragmentation"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Picea sitchensis (Sitka Spruce)"},
+           { "name": "Tsuga heterophylla (Western Hemlock)"},
+           { "name": "Thuja plicata (Western Red Cedar)"},
+           { "name": "Abies amabilis (Pacific Silver Fir)"},
+           { "name": "Pseudotsuga menziesii (Douglas Fir)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Marbled Murrelet (Brachyramphus marmoratus)"},
+          { "name": "Northern Spotted Owl (Strix occidentalis caurina)"},
+          { "name": "Coastal Tailed Frog (Ascaphus truei)"},
+          { "name": "Old-growth lichens and bryophytes"}
+                         ]
+        },
+                        ]
+        },
+        { "name": "Eastern Deciduous Forests (USA, Canada)",
+            "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Eastern North America, Appalachians to Great Lakes" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Broadleaf deciduous trees, closed canopy, four seasons" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Fertile, loamy, high organic matter, well-drained" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Hardwood timber, maple syrup, recreation" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Low-frequency, surface fires historically maintained oak-hickory systems"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Fragmentation, invasive species, deer overpopulation, pests (emerald ash borer)"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Acer saccharum (Sugar Maple)"},
+           { "name": "Quercus alba (White Oak)"},
+           { "name": "Fagus grandifolia (American Beech)"},
+           { "name": "Liriodendron tulipifera (Tulip Poplar)"},
+           { "name": "Carya spp. (Hickories)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Indiana Bat (Myotis sodalis)"},
+          { "name": "Cerulean Warbler (Setophaga cerulea)"},
+          { "name": "Eastern Box Turtle (Terrapene carolina)"},
+          { "name": "American Ginseng (Panax quinquefolius)"}
+                         ]
+        },
+                        ]
+        },
+        { "name": "Boreal Forests (Canada, Alaska)",
+             "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "High latitudes across Alaska and Canada" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Cold-hardy conifers, extensive wetlands, short growing season" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Acidic, nutrient-poor, permafrost in parts, slow decomposition" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Hardwood timber, maple syrup, recreation" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Fire-driven system; periodic crown fires reset forest succession"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Pulp and paper, timber, carbon storage"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Picea mariana (Black Spruce)"},
+           { "name": "Picea glauca (White Spruce)"},
+           { "name": "Larix laricina (Tamarack)"},
+           { "name": "Abies balsamea (Balsam Fir)"},
+           { "name": "Betula papyrifera (Paper Birch)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Woodland Caribou (Rangifer tarandus caribou)"},
+          { "name": "Canada Lynx (Lynx canadensis)"},
+          { "name": "Boreal Felt Lichen (Erioderma pedicellatum)"},
+          { "name": "Rusty Blackbird (Euphagus carolinus)"}
+                         ]
+        },
+                        ]
+        }
       ] 
         },
      {      "name": "Central & South America",
      "type": "geolocation", 
             "children": [
-        { "name": "Amazon Rainforest (Brazil, Peru, Colombia)"},
-        { "name": "Atlantic Forest (Brazil, Paraguay, Argentina)"},
-        { "name": "Andean Cloud Forests (Ecuador, Colombia, Peru)"}
+        { "name": "Amazon Rainforest (Brazil, Peru, Colombia)",
+               "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Amazon Basin across 9 countries, lowland tropics" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Broadleaf evergreen trees, multi-layered canopy, extreme biodiversity" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Poor in nutrients, acidic, highly leached (oxisols), rich in surface organic layer" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, fruits, nuts, medicinal plants" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Fire is unnatural; increased due to deforestation and drought"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation, cattle ranching, mining, road building"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Bertholletia excelsa (Brazil Nut Tree)"},
+           { "name": "Hevea brasiliensis (Rubber Tree)"},
+           { "name": "Euterpe precatoria (Açai Palm)"},
+           { "name": "ACeiba pentandra (Kapok Tree)"},
+           { "name": "Dipteryx odorata (Tonka Bean Tree)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Jaguar (Panthera onca)"},
+          { "name": "Amazon River Dolphin (Inia geoffrensis)"},
+          { "name": "Giant Otter (Pteronura brasiliensis)"},
+          { "name": "Mahogany (Swietenia macrophylla)"}
+                           ]
+        },
+                        ]
+        },
+        { "name": "Atlantic Forest (Brazil, Paraguay, Argentina)",
+                  "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Eastern Brazil and parts of Paraguay and Argentina" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Moist broadleaf evergreen and semi-deciduous trees" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Varies from fertile volcanic soils to sandy coastal soils; often degraded" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, palm hearts, biodiversity-derived products" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Not fire-adapted; fire accelerates degradation"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Urban expansion, agriculture, fragmentation—only ~7–12% remains"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Weinmannia spp."},
+           { "name": "Podocarpus spp."},
+           { "name": "Cecropia spp."},
+           { "name": "Tree ferns (Cyathea spp.)"},
+           { "name": "High-altitude Lauraceae and Melastomataceae"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Spectacled Bear (Tremarctos ornatus)"},
+          { "name": "Mountain Tapir (Tapirus pinchaque)"},
+          { "name": "Yellow-tailed Woolly Monkey (Oreonax flavicauda)"},
+          { "name": "Endemic orchids and bromeliads"}
+                             ]
+        },
+                        ]
+        },
+        { "name": "Andean Cloud Forests (Ecuador, Colombia, Peru)",
+                  "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Andean mountain slopes (1000–3000 m), steep and wet terrain" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Broadleaf trees, epiphytes, mosses, and orchids in high humidity" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Shallow, acidic, rich in organic matter, prone to erosion" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Water regulation, ecotourism, medicinal plants" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Naturally fire-free; fire is destructive at high altitudes"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Logging, cattle, road-building, climate shifts causing cloud base rise."}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Araucaria angustifolia (Paraná Pine)"},
+           { "name": "Euterpe edulis (Juçara Palm)"},
+           { "name": "Cedrela fissilis"},
+           { "name": "Tabebuia spp."},
+           { "name": "Lauraceae family (many species)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Golden Lion Tamarin (Leontopithecus rosalia)"},
+          { "name": "Maned Sloth (Bradypus torquatus)"},
+          { "name": "Black-faced Lion Tamarin (Leontopithecus caissara)"},
+          { "name": "Brazilwood (Paubrasilia echinata)"}
+                              ]
+        }
+                             ]
+        }
       ] 
       }
     ] 
