@@ -57,9 +57,159 @@ var treeData = {
             },
             ]
          },
-        { "name": "Tropical Rainforests (Daintree)"},
-        { "name": "Temperate Rainforests (Tasmania)"},
-        { "name": "Mulga & Acacia Woodlands"}
+        { "name": "Tropical Rainforests (Daintree)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Far North Queensland, primarily the Daintree Rainforest (part of the Wet Tropics World Heritage Area)" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Broadleaf evergreen trees, vines, ferns, palms" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Highly weathered tropical red and yellow earths, generally nutrient-poor, due to intense leaching" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Ecotourism, bushfoods" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Fire-sensitive; unlike eucalyptus forests, fires can cause severe damage."}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Climate change, invasive species (e.g. feral pigs, weeds), habitat fragmentation, tourism pressure, and cyclones"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Fan Palm (Licuala ramsayi)"},
+           { "name": "Southern Silky Oak (Grevillea robusta)"},
+           { "name": "Wait-a-while (Calamus australis, a climbing palm)"},
+           { "name": "Idiospermum australiense (Ribbonwood) – a primitive flowering plant"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Southern Cassowary (Casuarius casuarius johnsonii)"},
+          { "name": "Spotted-tailed Quoll (Dasyurus maculatus)"},
+          { "name": "Macleay's Fig-Parrot (Cyclopsitta diophthalma macleayana)"},
+          { "name": "Cooper Creek Haplostichanthus (Haplostichanthus sp.) – rare tree"}
+                ]
+            },
+            ]
+        },
+        { "name": "Temperate Rainforests (Tasmania)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Western Tasmania, including the Tarkine, Franklin-Gordon, and Southwest regions" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Ancient Gondwanan species – broadleaf evergreens, conifers, mosses" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Acidic, leached soils, often derived from quartzite or dolerite, low in nutrients, high in organic matter (peaty in some areas)" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Ecotourism, timber, bushfoods" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Extremely fire-sensitive – fire can permanently destroy rainforest ecosystems"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Logging (especially historical clearfelling), invasive species (e.g. Phytophthora root rot, feral species), climate change and drying trends, increasing fire risk"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Nothofagus cunninghamii (Myrtle Beech)"},
+           { "name": "Atherosperma moschatum (Southern Sassafras)"},
+           { "name": "Phyllocladus aspleniifolius (Celery-top Pine)"},
+           { "name": "Athrotaxis selaginoides (King Billy Pine – endemic conifer)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Tasmanian Wedge-tailed Eagle (Aquila audax fleayi)"},
+          { "name": "Tasmanian Devil (Sarcophilus harrisii)"},
+          { "name": "Huon Pine (Lagarostrobos franklinii) – extremely slow-growing"},
+          { "name": "Orange-bellied Parrot (Neophema chrysogaster)"}
+                ]
+            },
+            ]
+        },
+        { "name": "Mulga & Acacia Woodlands",
+          "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Arid and semi-arid interior – Western Australia, South Australia, Queensland, NT, NSW" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by: Acacia aneura (Mulga) and related acacia species" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Red sandy or loamy soils, often with ironstone or calcrete, low fertility, highly erodible, susceptible to salinisation and compaction" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Pastoral grazing (especially cattle and sheep), honey production (from flowering acacias), charcoal and firewood (low-scale use, often unsustainable), bushfoods and medicine, mining (significant overlap with mineral-rich areas – iron ore, uranium)" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Naturally fire-sensitive, but regenerates from seed banks, too frequent fires degrade ecosystem permanently"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Overgrazing, invasive species (feral camels, cats, rabbits), land clearing for agriculture and mining, groundwater depletion, desertification trends"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Acacia aneura (Mulga)"},
+           { "name": "Acacia kempeana (Witchetty Bush)"},
+           { "name": "Eremophila spp. (Emu Bushes)"},
+           { "name": "Spinifex grasses (Triodia spp.)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Night Parrot (Pezoporus occidentalis)"},
+          { "name": "Greater Bilby (Macrotis lagotis)"},
+          { "name": "Mulgara (Dasycercus cristicauda)"},
+          { "name": "Acacia pickardii (rare Mulga species)"}
+                ]
+            },
+            ]
+        }
             
                  ]
     },
@@ -67,17 +217,269 @@ var treeData = {
     {      "name": "Southeast Asia & Oceania",
      "type": "geolocation", 
             "children": [
-        { "name": "Dipterocarp Forests (Borneo, Sumatra)"},
-        { "name": "Peat Swamp Forests (Indonesia, Malaysia)"},
-        { "name": "Mangrove Forests (Indonesia, Philippines, Papua New Guinea)"},
+        { "name": "Dipterocarp Forests (Borneo, Sumatra)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Lowland and hill forests of Borneo, Sumatra, Peninsular Malaysia, parts of the Philippines" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by tall dipterocarp tree species, forming emergent layers up to 70 meters" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Weathered, acidic, nutrient-poor tropical soils, often ultisols or oxisols; richer in alluvial plains and hill slopes" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber extraction, aromatic resins (camphor, damar), oil palm conversion, ecotourism in protected sites" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Naturally fire-resistant when intact; highly flammable post-logging or drainage"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Logging (legal and illegal), deforestation for plantations, fragmentation, peat fires, poaching, and climate change"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Shorea leprosula"},
+           { "name": "Dipterocarpus grandiflorus"},
+           { "name": "Dryobalanops aromatica (camphor tree)"},
+           { "name": "Hopea odorata"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Pongo pygmaeus (Bornean Orangutan)"},
+          { "name": "Panthera tigris jacksoni (Malayan Tiger)"},
+          { "name": "Manis javanica (Sunda Pangolin)"},
+          { "name": "Rafflesia arnoldii (world’s largest flower)"},
+          { "name": "Shorea lumutensis (critically endangered dipterocarp)"}
+                ]
+            },
+            ]
+        },
+        { "name": "Peat Swamp Forests (Indonesia, Malaysia)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Low-lying inland and coastal zones of Sumatra, Borneo, and Peninsular Malaysia" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Dominated by water-tolerant trees adapted to low-oxygen, acidic peat soils" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Deep peat layers (up to 20m), acidic, waterlogged, extremely low in nutrients; formed from centuries of accumulated plant material" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber (ramin, meranti), illegal logging, conversion to oil palm and pulpwood plantations" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Extremely fire-prone when drained; peat fires smolder underground and release massive carbon stores"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Drainage canals, fire, illegal logging, peat oxidation, conversion to monoculture plantations, biodiversity loss, haze pollution"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Shorea albida"},
+           { "name": "Gonystylus bancanus (Ramin)"},
+           { "name": "Stenochlaena palustris (Climbing Fern)"},
+           { "name": "Combretocarpus rotundatus"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Pongo abelii (Sumatran Orangutan)"},
+          { "name": "Nasalis larvatus (Proboscis Monkey)"},
+          { "name": "Nephrolepis biserrata (sensitive fern species)"},
+          { "name": "Gonystylus bancanus (highly threatened due to overharvesting)"}
+                        ]
+            },
+            ]
+        },
+        { "name": "Mangrove Forests (Indonesia, Philippines, Papua New Guinea)",
+           "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Coastal intertidal zones, river deltas, estuaries, and lagoons throughout Southeast Asia and Oceania" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Salt-tolerant trees and shrubs adapted to tidal zones and brackish waters" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Waterlogged, anaerobic, high in organic matter and salinity; mud or silty clay sediments" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": " Coastal fisheries, timber and charcoal (limited), honey, tannins, eco- and blue carbon tourism, shoreline protection services" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Not fire-adapted; typically not exposed to fire due to wet conditions"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Coastal development, aquaculture (esp. shrimp farms), pollution, sea level rise, sediment disruption, overharvesting"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Rhizophora mucronata"},
+           { "name": "Avicennia marina"},
+           { "name": "Bruguiera gymnorrhiza"},
+           { "name": "Nypa fruticans (Nipa palm)"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Dugong dugon (Dugong)"},
+          { "name": "Chelonia mydas (Green Sea Turtle)"},
+          { "name": "Acanthaster planci (Crown-of-Thorns Starfish – reef impact)"},
+          { "name": "Sonneratia griffithii (critically endangered mangrove tree)"}
+                        ]
+            },
+            ]
+        },
                         ]
     },
    {      "name": "East Asia",
      "type": "geolocation", 
             "children": [
-        { "name": "Temperate Deciduous Forests (China, Japan, Korea)"},
-        { "name": "Subtropical Evergreen Forests (China, Taiwan)"},
-                               ]
+        { "name": "Temperate Deciduous Forests (China, Japan, Korea)",
+          "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Low to mid-elevation zones in eastern China, the Korean Peninsula, and southern-central Japan (e.g. Honshu, Shikoku)" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Broadleaf deciduous trees with seasonal leaf loss" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Brown forest soils; moderately fertile, loamy, rich in organic matter; prone to erosion when cleared" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber production, mushroom harvesting (e.g. shiitake, matsutake), fall tourism (foliage season), medicinal plant trade" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": "Generally low fire frequency; forests are not fire-adapted and may degrade with increased burning"}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation, urban sprawl, invasive species, air pollution (acid rain), fragmentation from roads and agriculture"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Quercus mongolica (Mongolian Oak)"},
+           { "name": "Acer palmatum (Japanese Maple)"},
+           { "name": "Fagus crenata (Japanese Beech)"},
+           { "name": "Zelkova serrata"}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "Panthera pardus orientalis (Amur Leopard)"},
+          { "name": "Bubo blakistoni (Blakiston’s Fish Owl)"},
+          { "name": "Prunus takesimensis (rare wild cherry)"},
+          { "name": "Elaeocarpus japonicus (regionally threatened tree)"}
+                          ]
+            },
+            ]
+        },
+        { "name": "Subtropical Evergreen Forests (China, Taiwan)",
+         "children": [
+        { "name": "Location",
+          "children": [
+        { "name": "Southeastern China, Taiwan, low to mid elevations" },
+          ]
+        },
+            
+        { "name": "Main feature" ,
+              "children": [
+        { "name": "Broadleaf evergreen species, moisture-loving, dense canopy" },
+          ]
+        },
+        { "name": "Soil" ,
+             "children": [
+        { "name": "Acidic, well-drained, rich in organic matter, lateritic and red soils common" },
+          ]
+      },
+        { "name": "Economic value" ,
+          "children": [
+        { "name": "Timber, tea plantations nearby, medicinal plants" },
+          ]
+         },
+        { "name": "Fire ecology" ,
+          "children": [
+        { "name": " Low fire frequency, fire-sensitive species, canopy rarely affected by fire, natural regeneration relies on seed dispersal rather than resprouting."}, 
+          ]
+         },
+        { "name": "Ecological threats",
+          "children": [
+        { "name": "Deforestation for agriculture and urban expansion, invasive species, habitat fragmentation, soil erosion"}, 
+          ]
+        },
+        { "name": "Predominant Species",
+         "children": [
+        { "name": "Castanopsis chinensis (Chinese Chestnut)"},
+           { "name": "Lithocarpus spp. (Stone Oaks)"},
+           { "name": "Schima superba (Chinese Evergreen Oak)"},
+           { "name": "Cinnamomum camphora (Camphor tree)"},
+           { "name": "Machilus spp."}
+          ]
+        },
+        { "name": "Endangered Species",
+        "children": [
+        { "name": "South China Tiger (Panthera tigris amoyensis)"},
+          { "name": "Formosan Black Bear (Ursus thibetanus formosanus)"},
+          { "name": "Chinese Giant Salamander (Andrias davidianus)"},
+          { "name": "Camellia spp. (rare/endemic)"}
+                    ]
+            },
+            ]
+        },
+                        ]
     },
       {      "name": "Central & South Asia",
      "type": "geolocation", 
