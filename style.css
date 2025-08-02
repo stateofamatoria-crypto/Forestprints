@@ -1,0 +1,68 @@
+#tree-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+svg {
+  min-width: 2000px; /* Or larger, depending on how wide your tree gets */
+  display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.node circle {
+  fill: #023ad9;
+  stroke: #023ad9;
+  stroke-width: 1px;
+  stroke-dasharray: none; /* or just remove this line */
+}
+
+.node text {
+  font: 12px 'IBM Plex Sans', sans-serif;
+  fill: #023ad9;
+  font-weight: 400;
+}
+
+.node text.main-title {
+  font: 12px 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  fill: #023ad9;
+}
+
+.node text.ecosystem-title {
+  font: 12px 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  fill: #023ad9;
+}
+
+.node text.detail-text {
+  font: 12px 'IBM Plex Sans', sans-serif;
+  fill: #023ad9;
+}
+
+.link {
+  fill: none;
+  stroke: #023ad9;
+  stroke-width: 1px;
+  stroke-dasharray: 4,4;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover circle {
+  stroke-width: 3px;
+  opacity: 0.8;
+}
+
+svg {
+  background: white;
+}
